@@ -29,7 +29,7 @@ public class TodoListAdapter extends RecyclerView.Adapter<TodoListAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-    holder.setTodoitem((todoItems.get(position)));
+    holder.setTodoItem((todoItems.get(position)));
     }
 
     @Override
@@ -55,7 +55,7 @@ public class TodoListAdapter extends RecyclerView.Adapter<TodoListAdapter.ViewHo
             return todoItem;
         }
 
-        public void setTodoitem(TodoListItem todoItem){
+        public void setTodoItem(TodoListItem todoItem){
             this.todoItem = todoItem;
             this.textView.setText(todoItem.text);
         }

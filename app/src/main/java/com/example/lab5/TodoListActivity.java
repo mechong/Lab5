@@ -24,6 +24,7 @@ public class TodoListActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.todo_items);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(adapter);
+
         adapter.setTodoItems(TodoListItem.loadJSON(this,"demo_todos.json"));
     }
 }
