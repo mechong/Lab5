@@ -16,7 +16,7 @@ public interface TodoListItemDao {
     @Query("SELECT * FROM `todo_list_items` WHERE `id`=:id")
     TodoListItem get(long id);
 
-    @Query("SELECT * FROM `todo_list_items`")
+    @Query("SELECT * FROM `todo_list_items` ORDER BY `order`")
     List<TodoListItem> getAll();
 
     @Update
