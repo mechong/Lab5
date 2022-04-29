@@ -14,4 +14,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/new_todo_text"
+        android:layout_width="260dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="670dp"
+        android:hint="Enter a todo here..."
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="477dp"
+        android:text="ADD"
+        app:layout_constraintStart_toEndOf="@+id/new_todo_text"
+        app:layout_constraintTop_toBottomOf="@+id/todo_items" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
