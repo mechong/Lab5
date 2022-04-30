@@ -16,12 +16,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/delete_btn"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/completed"
+        app:layout_constraintStart_toEndOf="@+id/completed_check_box"
         app:layout_constraintTop_toTopOf="parent"
          />
 
     <CheckBox
-        android:id="@+id/completed"
+        android:id="@+id/completed_check_box"
         android:layout_width="28dp"
         android:layout_height="36dp"
         android:layout_marginStart="18dp"

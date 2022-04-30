@@ -27,13 +27,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/add_todo_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="477dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="666dp"
         android:text="ADD"
         app:layout_constraintStart_toEndOf="@+id/new_todo_text"
-        app:layout_constraintTop_toBottomOf="@+id/todo_items" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
